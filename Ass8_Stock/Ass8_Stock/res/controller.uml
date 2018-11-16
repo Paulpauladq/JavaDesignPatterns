@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>tradesimulator.controller.command</OriginalElement>
+  <nodes>
+    <node x="0.0" y="102.0">tradesimulator.controller.controller.SimulatorController</node>
+    <node x="1464.0" y="667.0">tradesimulator.controller.command.ShowList</node>
+    <node x="732.0" y="633.0">tradesimulator.controller.command.DetermineValue</node>
+    <node x="89.0" y="0.0">tradesimulator.controller.controller.IController</node>
+    <node x="366.0" y="644.0">tradesimulator.controller.command.Create</node>
+    <node x="0.0" y="820.0">tradesimulator.controller.controller.ControllerErrMess</node>
+    <node x="745.0" y="509.0">tradesimulator.controller.command.TradeCommand</node>
+    <node x="1098.0" y="633.0">tradesimulator.controller.command.DetermineCost</node>
+    <node x="532.0" y="0.0">tradesimulator.controller.controller.TransMess</node>
+    <node x="0.0" y="611.0">tradesimulator.controller.command.Buy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tradesimulator.controller.command.DetermineCost" target="tradesimulator.controller.command.TradeCommand">
+      <point x="0.0" y="-60.0" />
+      <point x="1271.0" y="591.0" />
+      <point x="969.0" y="591.0" />
+      <point x="64.0" y="26.0" />
+    </edge>
+    <edge source="tradesimulator.controller.command.Buy" target="tradesimulator.controller.command.TradeCommand">
+      <point x="0.0" y="-82.0" />
+      <point x="173.0" y="581.0" />
+      <point x="777.0" y="581.0" />
+      <point x="-128.0" y="26.0" />
+    </edge>
+    <edge source="tradesimulator.controller.command.Create" target="tradesimulator.controller.command.TradeCommand">
+      <point x="0.0" y="-49.0" />
+      <point x="539.0" y="591.0" />
+      <point x="841.0" y="591.0" />
+      <point x="-64.0" y="26.0" />
+    </edge>
+    <edge source="tradesimulator.controller.command.DetermineValue" target="tradesimulator.controller.command.TradeCommand">
+      <point x="0.0" y="-60.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="tradesimulator.controller.controller.SimulatorController" target="tradesimulator.controller.controller.IController">
+      <point x="0.0" y="-181.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="tradesimulator.controller.command.ShowList" target="tradesimulator.controller.command.TradeCommand">
+      <point x="0.0" y="-26.0" />
+      <point x="1637.0" y="581.0" />
+      <point x="1033.0" y="581.0" />
+      <point x="128.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6122881779905226" x="648.8027218554896" y="540.3805874965581" />
+  <SelectedNodes>
+    <node>tradesimulator.controller.command.Buy</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>tradesimulator.model.operation</OriginalElement>
+  <nodes>
+    <node x="835.0" y="791.0">tradesimulator.model.parser.IParser</node>
+    <node x="349.0" y="235.0">tradesimulator.model.operation.SimulatorModel</node>
+    <node x="349.0" y="0.0">tradesimulator.model.operation.SimulatorOperations</node>
+    <node x="738.0" y="257.0">tradesimulator.model.portfolio.Portfolio</node>
+    <node x="0.0" y="357.5">tradesimulator.model.operation.SimulatorOperationsBuilder</node>
+    <node x="456.5" y="791.0">tradesimulator.model.transaction.ITransaction</node>
+    <node x="748.0" y="893.0">tradesimulator.model.parser.DailyParser</node>
+    <node x="1248.0" y="791.0">tradesimulator.model.operation.ModelErrMess</node>
+    <node x="738.0" y="0.0">tradesimulator.model.portfolio.IPortfolio</node>
+    <node x="0.0" y="791.0">tradesimulator.model.tradingitem.TradingItem</node>
+    <node x="355.0" y="959.0">tradesimulator.model.transaction.Transaction</node>
+    <node x="0.0" y="1004.0">tradesimulator.model.tradingitem.Stock</node>
+    <node x="178.25" y="604.0">tradesimulator.model.operation.SimulatorModel.SimulatorBuilder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tradesimulator.model.tradingitem.Stock" target="tradesimulator.model.tradingitem.TradingItem">
+      <point x="0.0" y="-126.5" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="tradesimulator.model.operation.SimulatorModel.SimulatorBuilder" target="tradesimulator.model.operation.SimulatorOperationsBuilder">
+      <point x="-82.25" y="-71.0" />
+      <point x="260.5" y="579.0" />
+      <point x="164.5" y="579.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="tradesimulator.model.operation.SimulatorModel.SimulatorBuilder" target="tradesimulator.model.operation.SimulatorModel">
+      <point x="82.25" y="-71.0" />
+      <point x="425.0" y="579.0" />
+      <point x="521.0" y="579.0" />
+      <point x="0.0" y="159.5" />
+    </edge>
+    <edge source="tradesimulator.model.operation.SimulatorModel" target="tradesimulator.model.operation.SimulatorOperations">
+      <point x="0.0" y="-159.5" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="tradesimulator.model.parser.DailyParser" target="tradesimulator.model.parser.IParser">
+      <point x="0.0" y="-93.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="tradesimulator.model.portfolio.Portfolio" target="tradesimulator.model.portfolio.IPortfolio">
+      <point x="0.0" y="-148.5" />
+      <point x="0.0" y="103.5" />
+    </edge>
+    <edge source="tradesimulator.model.transaction.Transaction" target="tradesimulator.model.transaction.ITransaction">
+      <point x="0.0" y="-70.5" />
+      <point x="0.0" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.639686684073107" x="446.15714285714284" y="468.5204081632653" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
